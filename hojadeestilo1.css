@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,400i,700&display=swap');
+
+header {
+  width: 100%;
+  display: block;
+}
+
+@font-face {
+  font-family: 'Raleway', sans-serif;
+  src: url('https://fonts.googleapis.com/css?family=Raleway:400,400i,700&display=swap');
+}
+
+body {
+  background-image: url("./imagenes/fondo_verdoso.png");
+  margin: 30px;
+}
+
+footer img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#logo_editorial {
+  width: 25%;
+  position: static;
+  right: 0px;
+}
+
+#retrato {
+  float: left;
+  width: 25%;
+  margin: 8px 15px 8px 8px;
+  padding-right: 8px;
+}
+
+div.contenedor{
+  overflow: auto;
+  border: 3px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 30px;
+}
+
+#direccion{
+  margin-left: 70px;
+}
+
+.pregunta{
+  color: blue;
+  font-weight: bold;
+}
+
+.respuesta{
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  font-size: 18px;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', sans-serif;
+}
+
+
+ /* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: #cc7000;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The dropdown container */
+.colecciones {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.colecciones .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: 'Raleway', sans-serif;
+  /* font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .colecciones:hover .dropbtn {
+  background-color: #ffc680;
+}
+
+/* Dropdown content (hidden by default) */
+.colecciones-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.colecciones-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a grey background color to dropdown links on hover */
+.colecciones-content a:hover {
+  background-color: #ddd;
+}
+
+/* Show the dropdown menu on hover */
+.colecciones:hover .colecciones-content {
+  display: block;
+} 
